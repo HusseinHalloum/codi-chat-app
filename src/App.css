@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+/* div {
+  background-color: gold;
+} */
+h1 {
+  color: blue;
+}
+.chat-wrapper {
+  /* width: 50%; */
+}
+.send-div {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.send-button {
+  border: none;
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+input[type="text"] {
+  border: none;
+  margin: 5px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: grey;
+}
+.chat-div {
+  margin: auto;
+  width: 100%;
+}
+li {
+  text-align: left;
+  font-size: 15px;
+  padding: 10px;
+  margin: 20px;
+  width: 50%;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
